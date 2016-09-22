@@ -24,7 +24,7 @@ public class Main {
 
         Scanner consoleScanner = new Scanner(System.in);
 
-        int replyId = -1
+        int replyId = -1;
         while (true) {
             System.out.println("Posts replying to " + replyId);
             for (int i = 0; i < posts.size(); i++) {
