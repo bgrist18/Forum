@@ -1,12 +1,12 @@
 package com.company;
 
 /**
- * Created by brettgrist on 9/22/16.
+ * Created by brett on 9/22/16.
  */
 public class Post {
-    public int replyId;
-    public String author;
-    public String text;
+    int replyId;
+    String author;
+    String text;
 
     public Post(int replyId, String author, String text) {
         this.replyId = replyId;
